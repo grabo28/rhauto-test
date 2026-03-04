@@ -313,19 +313,17 @@
             <div class="grid grid-cols-1 md:grid-cols-3 gap-4 md:auto-rows-[300px]">
                 
                 <!-- Card 1: 0% Önerő (Large) -->
-                <div class="bento-card min-h-[250px] sm:min-h-[300px] md:min-h-0 bg-rh-surface p-6 sm:p-8 md:col-span-2 relative overflow-hidden group flex flex-col justify-end">
-                    <div class="absolute inset-0 bg-gradient-to-t from-rh-black via-rh-black/50 to-transparent z-10"></div>
-                    <img src="" alt="" class="absolute inset-0 w-full h-full object-cover opacity-30 group-hover:opacity-40 transition-opacity duration-500 mix-blend-luminosity" />
-                    <div class="relative z-20">
-                        <div class="w-10 sm:w-12 h-10 sm:h-12 bg-rh-red flex items-center justify-center text-white mb-4 sm:mb-6 font-heading font-bold text-lg sm:text-xl">0%</div>
+                <div class="bento-card min-h-[250px] sm:min-h-[300px] md:min-h-0 bg-rh-surface p-6 sm:p-8 md:col-span-2 relative overflow-hidden group flex flex-col justify-start">
+                    <div class="w-10 sm:w-12 h-10 sm:h-12 bg-rh-red flex items-center justify-center text-white mb-4 sm:mb-6 font-heading font-bold text-lg sm:text-xl shrink-0">0%</div>
+                    <div>
                         <h3 class="font-heading text-2xl sm:text-3xl font-bold mb-2 sm:mb-3">0% Önerő</h3>
                         <p class="text-rh-muted text-sm sm:text-base max-w-md">Akár kezdőbefizetés nélkül is elviheted álmaid autóját. Nem kell éveket várnod a megtakarításra.</p>
                     </div>
                 </div>
 
                 <!-- Card 2: Hitel -->
-                <div class="bento-card min-h-[200px] sm:min-h-[250px] md:min-h-0 bg-rh-surface p-6 sm:p-8 relative overflow-hidden group flex flex-col justify-between">
-                    <div class="w-10 sm:w-12 h-10 sm:h-12 border border-white/10 flex items-center justify-center text-white font-heading font-bold">
+                <div class="bento-card min-h-[200px] sm:min-h-[250px] md:min-h-0 bg-rh-surface p-6 sm:p-8 relative overflow-hidden group flex flex-col justify-start">
+                    <div class="w-10 sm:w-12 h-10 sm:h-12 bg-rh-red flex items-center justify-center text-white mb-4 sm:mb-6 font-heading font-bold text-lg sm:text-xl shrink-0">
                         <svg class="w-5 sm:w-6 h-5 sm:h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="square" stroke-linejoin="miter" stroke-width="2" d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
                     </div>
                     <div>
@@ -335,8 +333,8 @@
                 </div>
 
                 <!-- Card 3: Magyarul -->
-                <div class="bento-card min-h-[200px] sm:min-h-[250px] md:min-h-0 bg-rh-surface p-6 sm:p-8 relative flex flex-col justify-between">
-                    <div class="w-10 sm:w-12 h-10 sm:h-12 border border-white/10 flex items-center justify-center text-white font-heading font-bold">
+                <div class="bento-card min-h-[200px] sm:min-h-[250px] md:min-h-0 bg-rh-surface p-6 sm:p-8 relative overflow-hidden group flex flex-col justify-start">
+                    <div class="w-10 sm:w-12 h-10 sm:h-12 bg-rh-red flex items-center justify-center text-white mb-4 sm:mb-6 font-heading font-bold text-lg sm:text-xl shrink-0">
                         HU
                     </div>
                     <div>
@@ -346,14 +344,14 @@
                 </div>
 
                 <!-- Card 4: Garancia -->
-                <div class="bento-card min-h-[250px] sm:min-h-[300px] md:min-h-0 bg-rh-surface p-6 sm:p-8 md:col-span-2 relative overflow-hidden group flex flex-col justify-center items-start">
-                    <div class="absolute inset-0 bg-gradient-to-t md:bg-gradient-to-r from-rh-black via-rh-black/80 to-transparent z-10"></div>
-                    <img src="" alt="" class="absolute inset-0 w-full h-full object-cover object-center opacity-30 group-hover:opacity-40 transition-opacity duration-500 mix-blend-luminosity" />
-                    
-                    <div class="relative z-20 max-w-sm mt-auto md:mt-0">
+                <div class="bento-card min-h-[250px] sm:min-h-[300px] md:min-h-0 bg-rh-surface p-6 sm:p-8 md:col-span-2 relative overflow-hidden group flex flex-col justify-start">
+                    <div class="w-10 sm:w-12 h-10 sm:h-12 bg-rh-red flex items-center justify-center text-white mb-4 sm:mb-6 font-heading font-bold text-lg sm:text-xl shrink-0">
+                        <svg class="w-5 sm:w-6 h-5 sm:h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="square" stroke-linejoin="miter" stroke-width="2" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"></path></svg>
+                    </div>
+                    <div>
                         <span class="text-rh-red text-xs font-bold tracking-[0.2em] uppercase mb-3 sm:mb-4 block">Ajándék a vásárláshoz</span>
                         <h3 class="font-heading text-2xl sm:text-3xl font-bold mb-2 sm:mb-3">4 Év Garancia</h3>
-                        <p class="text-rh-muted text-sm sm:text-base md:mb-6">Teljes körű szervizgaranciát biztosítunk minden autónkhoz, ráadásul egy komplett gumicsomagot adunk ajándékba!</p>
+                        <p class="text-rh-muted text-sm sm:text-base max-w-md">Teljes körű szervizgaranciát biztosítunk minden autónkhoz, ráadásul egy komplett gumicsomagot adunk ajándékba!</p>
                     </div>
                 </div>
 
